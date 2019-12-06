@@ -13,7 +13,7 @@ Before you Start , make sure you have
 
 5) (Recommended) Set the SAP_ANDROID_HOME environment variable to point to your installation folder.
 
-- [Create an application in mobile services cockpit](/Tutorial_1)
-- [Create an application from android studio integrated with SAP wizard](/Tutorial_2)
-- [Custamize wizard generated application](/Tutorial_3)
-- [Send notifications to android application](/Tutorial_4)
+- [Create an application in mobile services cockpit](/Excercise_1)
+- [Create an application from android studio integrated with SAP wizard](/Excercise_2)
+- [Custamize wizard generated application](/Excercise_3)
+- [Send notifications to android application](/Excercise_4)

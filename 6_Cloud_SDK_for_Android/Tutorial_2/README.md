@@ -25,11 +25,34 @@ Creat an application from android studio integrated with SAP wizard.
     | Enable Logging | Check |
     | Enable Upload | Check |
     | Enable Usage Reporting | Uncheck |
+    | Enable Push | Check |
 
     ![image](images/6.png)
-    ![image](images/7.png)
 
-7) Click finish on the project features tab. The project gets genereated and wait for the build to finish. 
+    1. When the Enable Push checkbox is checked, an error message is shown explaining that you need to specify a google-services.json file. We will obtain this file from the [Cloud Messaging](https://firebase.google.com/docs/cloud-messaging/) feature in [Google Firebase](https://firebase.google.com/).
+
+    2. login using your gmail to firebase console. once logged in, click on "Go to console" on top right.
+    ![image](images/15.png)
+
+        click on "Add Project", give a project name and click continue. 
+        ![image](images/16.png)
+
+        In setp3 from the drop down select "Default Account for Firebase" and click create project
+
+        Once the project is created, it opens the landing page of the project. Click on the android icon below the text “Get started by adding Firebase to your app”
+        ![image](images/17.png)
+
+        Fill android package name as "com.sap.android.sdk.demo" and App nickname(optional) as "androidSdkDemo" and click on Register app. 
+
+        Click on "Download google-services.json" button in step 2 of "Add Firebase to your Android app" and click next.
+        ![image](images/18.png)
+
+        click next for step 3 and click "skip this setp" for step 4.
+        
+        Browse for the downloaded file "google-services.json" and upload it in push notificaiton
+        ![image](images/19.png)
+
+7) The project gets genereated and wait for the build to finish. 
 ![image](images/8.png)
 
 8) Choose teh emulator for running the app.
@@ -38,7 +61,7 @@ Creat an application from android studio integrated with SAP wizard.
 
     Click the Run toolbar icon.
 
-    ![image](images/10..png)
+    ![image](images/10.png)
 
 9) The Welcome screen is shown the first time the app is launches.
 

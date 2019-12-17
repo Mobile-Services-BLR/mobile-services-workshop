@@ -7,9 +7,9 @@ Index of all the Readmes
 
 - Mobile Development Kit
 
-    -[part 1]((https://developers.sap.com/mission.mobile-dev-kit-get-started.html))
+    -[Get started with Mobile Development Kit](https://developers.sap.com/mission.mobile-dev-kit-get-started.html)
 
-    -[part 2 Optional](https://developers.sap.com/group.mobile-dev-kit-enhance.html)
+    -[Enhance Mobile Development Kit Apps ](https://developers.sap.com/group.mobile-dev-kit-enhance.html) *(Optional)*
 
 - [SDK for Android](/1_Cloud_SDK_for_Android)
     - [Create an application in mobile services cockpit](/1_Cloud_SDK_for_Android/Tutorial_1)

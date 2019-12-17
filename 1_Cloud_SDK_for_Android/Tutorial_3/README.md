@@ -14,7 +14,7 @@ At the end of previous tutorial we geneated an application using android sap sdk
 
 4) In this section, the object cell will be configured to show a product’s name, category, description and price. As well, a separator decoration will be added between cells, and the sort order will be modified.
 
-    In Android Studio, on Windows press Ctrl+N or on a Mac press command+O and type ProductsListActivity to open ProductsListFragment.java
+    In Android Studio, on Windows press Ctrl+N or on a Mac press command+O and type ProductsListFragment to open ProductsListFragment.java
 
     On Windows press Ctrl+F12 or on a Mac press command+F12 and type populateObjectCell to move to the populateObjectCell method.
 

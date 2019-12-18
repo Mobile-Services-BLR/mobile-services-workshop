@@ -52,7 +52,7 @@ At the end of previous tutorial we geneated an application using android sap sdk
         objectCell.setStatus("$ " + dataValue.toString(), 1);
     }
     ```
-    On Windows press Ctrl+F12 or on a Mac press command+F12 and type setupRecyclerView to move to the setupRecyclerView method.
+    On Windows press Ctrl+F12 or on a Mac press command+F12 and type recyclerView to move to the recyclerView method.
     After the if (recyclerView == null) line, paste the following code that adds a divider between product items.
 
     ```

@@ -10,7 +10,7 @@ Before you Start , make sure you have
 
 4) Run the .\install.bat (Windows) ./install (Mac) which will copy the libraries to Users\user_name\.m2\repository and install a plugin into Android Studio. The script installs the Android Wizard plugin in Android Studio and copies the SDK libraries to your local Maven repository.
 
-- [Create an application in mobile services cockpit](/1_Cloud_SDK_for_Android/Tutorial_1)
-- [Create an application from android studio integrated with SAP wizard](/Tutorial_2)
-- [Custamize wizard generated application](/Tutorial_3)
-- [Send notifications to android application](/Tutorial_4)
+    - [Create an application in mobile services cockpit](/1_Cloud_SDK_for_Android/Tutorial_1)
+    - [Create an application from android studio integrated with SAP wizard](/1_Cloud_SDK_for_Android/Tutorial_2)
+    - [Customize wizard generated application](/1_Cloud_SDK_for_Android/Tutorial_3)
+    - [Send notifications to android application](/1_Cloud_SDK_for_Android/Tutorial_4)

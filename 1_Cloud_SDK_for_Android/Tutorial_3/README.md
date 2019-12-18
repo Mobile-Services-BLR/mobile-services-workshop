@@ -40,16 +40,16 @@ At the end of previous tutorial we geneated an application using android sap sdk
     ```
     dataValue = productEntity.getDataValue(Product.category);
     if (dataValue != null) {
-        objectCell.setSubheadline(dataValue.toString());
+        viewHolder.objectCell.setSubheadline(dataValue.toString());
     }
     dataValue = productEntity.getDataValue(Product.shortDescription);
     if (dataValue != null) {
-        objectCell.setFootnote(dataValue.toString());
+        viewHolder.objectCell.setFootnote(dataValue.toString());
     }
     dataValue = productEntity.getDataValue(Product.price);
     if (dataValue != null) {
-        objectCell.setStatusWidth(200);
-        objectCell.setStatus("$ " + dataValue.toString(), 1);
+        viewHolder.objectCell.setStatusWidth(200);
+        viewHolder.objectCell.setStatus("$ " + dataValue.toString(), 1);
     }
     ```
     On Windows press Ctrl+F12 or on a Mac press command+F12 and type recyclerView to move to the recyclerView method.

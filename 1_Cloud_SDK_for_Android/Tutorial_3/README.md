@@ -56,7 +56,7 @@ At the end of previous tutorial we geneated an application using android sap sdk
     After the if (recyclerView == null) line, paste the following code that adds a divider between product items.
 
     ```
-    LinearLayoutManager llm = new LinearLayoutManager(this);
+    LinearLayoutManager llm = new LinearLayoutManager(currentActivity);
     DividerItemDecoration dividerItemDecoration = new DividerItemDecoration(recyclerView.getContext(), llm.getOrientation());
     recyclerView.addItemDecoration(dividerItemDecoration);
     recyclerView.setLayoutManager(llm);

@@ -16,4 +16,3 @@ Index of all the Readmes
     - [Create an application from android studio integrated with SAP wizard](/1_Cloud_SDK_for_Android/Tutorial_2)
     - [Customize wizard generated application](/1_Cloud_SDK_for_Android/Tutorial_3)
     - [Send notifications to android application](/1_Cloud_SDK_for_Android/Tutorial_4)
-    - [Enable logging in android application](/1_Cloud_SDK_for_Android/Tutorial_5)
